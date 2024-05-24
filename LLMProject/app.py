@@ -4,7 +4,7 @@ import google.generativeai as genai
 app = Flask(__name__)
 
 
-genai.configure(api_key="AIzaSyDrgS_nkCcezHkVGD2PeOAet-Ut9fPOuAc")
+genai.configure(api_key="API_KEY")
 model = genai.GenerativeModel('gemini-pro')
 
 @app.route('/')
