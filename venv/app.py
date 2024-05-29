@@ -6,7 +6,7 @@ from genPDF import generate_pdf
 app = Flask(__name__)
 
 
-genai.configure(api_key="AIzaSyC6naVy8VLsXUu3F1PqVfRTra-P3D-hfqw")
+genai.configure(api_key="API-KEY")
 model = genai.GenerativeModel('gemini-pro')
 
 @app.route('/')
